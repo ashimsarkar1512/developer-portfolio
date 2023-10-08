@@ -113,9 +113,9 @@ nav a {
 }
 
 /*main section styles*/
-main{
+main {
     max-width: 1140px;
-    margin: 0,auto;
+    margin: 0, auto;
 }
 
 /*about section styles*/
@@ -126,10 +126,38 @@ main{
     background: #FFF8F3;
     margin: 130px 0;
 }
-.about-container{
+
+.about-container {
     display: flex;
     justify-content: space-around;
 }
-.about-info{
+
+.about-info {
     text-align: center;
+}
+
+/*skill related styles*/
+
+#what-i-do-description {
+    padding: 30px 150px;
+}
+
+.skill-container {
+    display: flex;
+}
+
+.skill {
+    padding: 30px;
+    gap: 24px;
+
+}
+
+/*resume section styles*/
+.rejume-collume-title {
+    color: #474747;
+
+    font-size: 30px;
+
+    font-weight: 700;
+
 }
